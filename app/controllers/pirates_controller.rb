@@ -4,4 +4,8 @@ class PiratesController < ApplicationController
         render :json @pirates
     end
 
+    def show 
+        @pirate = Pirate.find(params[:id])
+        render :json @pirate
+    end
 end
