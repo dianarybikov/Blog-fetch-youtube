@@ -5,19 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Pirates.destroy_all
 
-Pirates.create(
+Pirate.create(
     name: 'Jack Sparrow',
     age:"36",
     ship: "Black Pearl"
 )
-Pirates.create(
+Pirate.create(
     name: 'Black Beard',
     age:"39",
     ship: "Queen Anne's Revenge"
 )
-Pirates.create(
+Pirate.create(
     name: 'Captain Hook',
     age:"40",
     ship: "Jolly Roger"
